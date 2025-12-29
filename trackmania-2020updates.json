@@ -1,0 +1,33 @@
+[
+    {
+        "UpdateStageName": "Serverfiles downloading and extracting...",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "http://files.v04.maniaplanet.com/server/TrackmaniaServer_Latest.zip",
+        "UpdateSourceTarget": "serverfiles",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Copying default config",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "CopyFilePath",
+        "UpdateSourceData": "./trackmania-2020/serverfiles/UserData/Config/dedicated_cfg.txt",
+        "UpdateSourceArgs": "./trackmania-2020/serverfiles/UserData/Config/dedicated_cfg.default.txt",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": false,
+        "OneShot": true
+    },
+    {
+        "UpdateStageName": "Start application",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "StartApplication",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": true
+    }
+]
