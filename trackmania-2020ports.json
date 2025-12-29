@@ -1,7 +1,7 @@
 [
     {
         "Protocol": "Both",
-        "Port": "2351",
+        "Port": "2350",
         "Name": "Main Game Port",
         "Description": "Port used for main game traffic",
         "Ref": "MainGamePort"
