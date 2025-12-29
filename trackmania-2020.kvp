@@ -10,9 +10,9 @@ Meta.ContainerPolicy=Supported
 Meta.ContainerPolicyReason=
 Meta.Prerequsites=[]
 Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Ports.$SteamQueryPort}
-Meta.AppConfigId=82c03622-aab1-46f3-a744-30c91365b56f
-App.AdminMethod=PinballWizard
-App.HasReadableConsole=false
+Meta.AppConfigId=401b95c2-437d-400a-8db5-f6ce5e237a77
+App.AdminMethod=STDIO
+App.HasReadableConsole=true
 App.HasWritableConsole=false
 App.DisplayName=Trackmania 2020
 App.CommandLineArgs=/dedicated_cfg=dedicated_cfg.txt /game_settings=MatchSettings/example.txt

@@ -1,7 +1,7 @@
 [
     {
         "ConfigFile": "UserData/Config/dedicated_cfg.txt",
-        "ConfigType": "xml",
-        "AutoMap": true
+        "ConfigType": "",
+        "AutoMap": false
     }
 ]
